@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../images/ibIej7D.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.sidebar{
+    width: 22%;
+    height: 100%;
+    background: #010032;
+    padding: 20px 0;
+    float: right;
+    opacity: 0.85;
+    
+    
+}
+.check {
+    float: right;
+    display: none;
+}
+.check1{
+    float: right;
+    background-image: url(../images/list.png);
+    background-size: cover;
+    padding: 15px;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: 20;
+    cursor: pointer;
+
+}
+
+.check:checked ~ div > ul{
+    display: none;
+   
+}
+.check:checked ~ div {
+    background: transparent;
+}
+
+/*.sidebar ~ .check:checked{
+    opacity: 0.1;
+}*/
+
+
+
+.ul-list{
+    
+    list-style: none;
+    width: 50%;
+    
+}
+.list-item a{
+    display: block;
+    color: crimson;
+    text-decoration: none;
+    padding: 15px 15px;
+    font-size: 20px;
+    font-weight: bold; 
+    text-align: center;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+
+.list-item a:hover{
+    color: aliceblue;
+}
+
+.loginbox {
+    border-radius: 25px;
+    width: 320px;
+    height: 420px;
+    background: #004486;
+    opacity: 0.9;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    box-sizing: border-box;
+    padding: 50px 30px;
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 45px;
+}
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+.loginbox input{
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 45px;
+
+}
+.btn{
+    cursor: pointer;
+}
+
+.loginbox a{
+    width: 100%;
+    margin-right: 100px; 
+    color: #01002c;
+}
+
+
+.box{
+    border-radius: 25px;
+    width: 800px;
+    height: 320px;
+    background: #004486;
+    opacity: 0.9;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    box-sizing: border-box;
+    padding: 50px 30px;
+}
+.box p{
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
